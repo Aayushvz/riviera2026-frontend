@@ -16,3 +16,5 @@ export async function GET() {
     return Response.json({ error: "Failed to fetch sectors" }, { status: 500 })
   }
 }
+
+export const dynamic = "force-dynamic"
