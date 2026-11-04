@@ -1,0 +1,23 @@
+# Dependencies
+node_modules
+pnpm-lock.yaml
+package-lock.json
+yarn.lock
+
+# Next.js build output
+.next
+out
+build
+
+# Environment files (optional, but usually good to ignore)
+.env
+.env.local
+.env.*
+
+# Public assets (images/fonts usually don't need formatting)
+public
+
+# TypeScript/Config artifacts
+next-env.d.ts
+dist
+coverage
